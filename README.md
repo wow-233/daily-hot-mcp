@@ -92,7 +92,6 @@ uv run python main.py
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" height="40" alt="Python" title="Python">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="40" height="40" alt="Requests" title="Requests">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/beautifulsoup/beautifulsoup-original.svg" width="40" height="40" alt="BeautifulSoup" title="BeautifulSoup">
 </p>
 
 - **Python 3.10+** - 主要编程语言
