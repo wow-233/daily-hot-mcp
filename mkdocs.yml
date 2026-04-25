@@ -1,0 +1,53 @@
+site_name: 每日热门
+site_description: GitHub 每日热门项目、ProductHunt 每日热门产品和 Hacker News 每日热门新闻
+site_author: royzheng2017@gmail.com
+
+# 主题配置
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+# 导航配置
+nav:
+  - 首页: index.md
+  - GitHub 历史记录: github-history.md
+  - ProductHunt 历史记录: producthunt-history.md
+  - Hacker News 历史记录: hackernews-history.md
+
+# 插件配置
+plugins:
+  - search
+
+# 额外配置
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/zdz72113/DayHot
+
+# 版权信息
+copyright: Copyright &copy; 2025 royzheng2017@gmail.com
+
+# 构建配置
+docs_dir: mkdocs
+site_dir: site
